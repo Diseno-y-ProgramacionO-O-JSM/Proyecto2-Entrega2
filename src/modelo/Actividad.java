@@ -127,9 +127,7 @@ public class Actividad {
 	public  ArrayList<Integer> tiemposs(String start_date, String end_date)
     {
   
-        SimpleDateFormat sdf
-            = new SimpleDateFormat(
-                "dd-MM-yyyy HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
   
         try {
             Date d1 = sdf.parse(start_date);

@@ -1,8 +1,6 @@
 package Intefaz;
 
 
-
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -14,7 +12,7 @@ import javax.swing.JPanel;
 
 
 
-public class JPanelBackground extends JPanel {
+public class PanelBackground extends JPanel {
 
 	private Image background;
 	
