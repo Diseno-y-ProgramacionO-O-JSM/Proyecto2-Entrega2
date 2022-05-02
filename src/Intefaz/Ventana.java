@@ -28,6 +28,9 @@ import modelo.Proyecto;
 public class Ventana extends JFrame {
 
 
+	PanelBackground panel;
+	Paneles paneles;
+	
 	public Ventana() {
 
 		setLayout(new BorderLayout());
@@ -38,13 +41,13 @@ public class Ventana extends JFrame {
 
 		
 		// INICIO
-		PanelBackground panel = new PanelBackground();
+		panel = new PanelBackground();
 
 		panel.setOpaque(false);
 		panel.setBackground("img/bc.png");
 
 		
-		Paneles paneles = new Paneles(this);
+		paneles = new Paneles(this);
 		paneles.setOpaque(true);
 		
 		
